@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="initial commit">
+    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="added getter Methods for old Sphere position">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,9 @@
       <workItem from="1717061770006" duration="218000" />
       <workItem from="1717062082438" duration="79000" />
       <workItem from="1717062324492" duration="95000" />
+      <workItem from="1717063046586" duration="76000" />
+      <workItem from="1717063145813" duration="4000" />
+      <workItem from="1717063191194" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717061797657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added getter Methods for old Sphere position">
+      <option name="closed" value="true" />
+      <created>1717063100904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717063100904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added getter Methods for old Sphere position" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getter Methods for old Sphere position" />
   </component>
 </project>

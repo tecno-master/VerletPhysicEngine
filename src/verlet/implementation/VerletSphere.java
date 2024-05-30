@@ -57,6 +57,16 @@ public class VerletSphere implements Sphere {
     }
 
     @Override
+    public void setOldX(double x) {
+        this.lx = x;
+    }
+
+    @Override
+    public void setOldY(double y) {
+        this.lx = y;
+    }
+
+    @Override
     public double getX() {
         return x;
     }

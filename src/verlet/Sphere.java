@@ -5,6 +5,8 @@ public interface Sphere {
     void accelerate(double x, double y);
     void setX(double x);
     void setY(double y);
+    void setOldX(double x);
+    void setOldY(double y);
     double getX();
     double getY();
     double getOldX();
