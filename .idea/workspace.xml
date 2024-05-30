@@ -9,41 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaProjectLoader.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerletEnginePlus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/JavaProjectLoader.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/Constraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/SceneConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/StaticConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/Verlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/VerletContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/constraint/CircleAreaConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/constraint/LinkConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/constraint/StaticPositionConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/ConstraintRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/SphereRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/TwoSphereRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletSphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/render/ConstraintPainter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/render/VerletPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verlet/utils/VectorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main/CursorPickup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main/KeyMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main/Scenes.java" afterDir="false" />
+    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,33 +28,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2h9PgDrg6PBLBe7CiPIFkNTpZkJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/flori/IdeaProjects/VerletEnginePlus/libs/JavaProjectLoader.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15456675",
-    "project.structure.side.proportion": "0.41149426",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flori/IdeaProjects/VerletEnginePlus/libs/JavaProjectLoader.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15456675&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41149426&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\flori\IdeaProjects\VerletEnginePlus\libs" />
@@ -114,10 +81,26 @@
       <option name="presentableId" value="Default" />
       <updated>1717003429747</updated>
       <workItem from="1717003430785" duration="13281000" />
+      <workItem from="1717061770006" duration="218000" />
+      <workItem from="1717062082438" duration="79000" />
+      <workItem from="1717062324492" duration="95000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1717061797657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717061797657</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

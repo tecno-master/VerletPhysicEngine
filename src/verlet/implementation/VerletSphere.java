@@ -67,6 +67,16 @@ public class VerletSphere implements Sphere {
     }
 
     @Override
+    public double getOldX() {
+        return lx;
+    }
+
+    @Override
+    public double getOldY() {
+        return ly;
+    }
+
+    @Override
     public float getRadius() {
         return radius;
     }

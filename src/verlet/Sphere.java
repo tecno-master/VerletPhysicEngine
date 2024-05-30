@@ -7,6 +7,8 @@ public interface Sphere {
     void setY(double y);
     double getX();
     double getY();
+    double getOldX();
+    double getOldY();
     float getRadius();
     float getWeight();
 }
