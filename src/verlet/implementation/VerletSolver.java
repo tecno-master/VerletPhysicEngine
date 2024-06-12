@@ -8,9 +8,18 @@ public class VerletSolver implements Solver {
     private VerletContainer container;
     private int subSteps;
     private VerletGrid grid;
+    private double gx,gy = -1000;
+    private boolean enableCollisions;
     private VerletSolver() {
         this.subSteps = 1;
+        this.enableCollisions = true;
     }
+
+    @Override
+    public void enableCollisions(boolean b) {
+        this.enableCollisions = b;
+    }
+
     public void setContainer(VerletContainer container) {
         this.container = container;
     }
@@ -18,6 +27,12 @@ public class VerletSolver implements Solver {
     @Override
     public void setGrid(VerletGrid grid) {
         this.grid = grid;
+    }
+
+    @Override
+    public void setGravity(double x, double y) {
+        this.gx = x;
+        this.gy = y;
     }
 
     @Override
@@ -35,10 +50,10 @@ public class VerletSolver implements Solver {
             applyGravity();
 
             // apply constraints if container supports them
-            if (container instanceof Scene) applyConstraints((Scene) container);
+            if(container instanceof Scene) applyConstraints((Scene) container);
 
             // solve object collisions
-            solveCollisions();
+            if(enableCollisions) solveCollisions();
 
             // update position of every object
             updatePosition(sub_dt);
@@ -85,6 +100,8 @@ public class VerletSolver implements Solver {
             float weightDiff = sphere_1.getWeight() / (sphere_1.getWeight() + sphere_2.getWeight());
             applyNewPosition(sphere_1,dx * delta*(1-weightDiff),dy * delta*(1-weightDiff));
             applyNewPosition(sphere_2,- dx * delta*(weightDiff),- dy * delta*(weightDiff));
+            if(sphere_1 instanceof VerletSphere) ((VerletSphere)sphere_1).collision(sphere_2);
+            if(sphere_2 instanceof VerletSphere) ((VerletSphere)sphere_2).collision(sphere_1);
         }
 
     }
@@ -105,7 +122,7 @@ public class VerletSolver implements Solver {
 
     private void applyGravity() {
         container.invokeSpheres((sphere -> {
-            sphere.accelerate(0,-1000);
+            sphere.accelerate(gx,gy);
         }));
     }
 }

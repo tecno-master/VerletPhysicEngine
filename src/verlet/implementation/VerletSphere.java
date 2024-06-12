@@ -1,5 +1,6 @@
 package verlet.implementation;
 
+import verlet.Constraint;
 import verlet.Sphere;
 
 public class VerletSphere implements Sphere {
@@ -7,7 +8,7 @@ public class VerletSphere implements Sphere {
     private double lx,ly;
     private double x,y;
     private float radius;
-    private VerletSphere() {}
+    protected VerletSphere() {}
 
     public void setAttributes(double x, double y, float radius) {
         this.ax = 0;
@@ -40,6 +41,14 @@ public class VerletSphere implements Sphere {
 
     }
 
+    public void collision(Sphere sphere) {
+        // In case a subclass wants to overwrite
+    }
+
+    public void collision(Constraint constraint) {
+        // In case a subclass wants to overwrite
+    }
+
     @Override
     public void accelerate(double x, double y) {
         ax += x;
@@ -63,7 +72,7 @@ public class VerletSphere implements Sphere {
 
     @Override
     public void setOldY(double y) {
-        this.lx = y;
+        this.ly = y;
     }
 
     @Override

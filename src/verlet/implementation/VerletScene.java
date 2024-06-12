@@ -13,11 +13,11 @@ import java.util.Set;
 public class VerletScene implements Scene {
 
     private final List<Sphere> spheres;
-    private final Set<Constraint> constraints;
+    private final List<Constraint> constraints;
 
     private VerletScene() {
         this.spheres = new ArrayList<>();
-        this.constraints = new HashSet<>();
+        this.constraints = new ArrayList<>();
     }
 
     @Override
@@ -58,8 +58,8 @@ public class VerletScene implements Scene {
 
     @Override
     public void invokeConstraint(ConstraintRunnable runnable) {
-        for(Constraint constraint : constraints) {
-            runnable.run(constraint);
+        for(int i = 0; i < constraints.size(); i++) {
+            runnable.run(constraints.get(i));
         }
     }
 }

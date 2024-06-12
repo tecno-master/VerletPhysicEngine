@@ -2,6 +2,7 @@ package verlet.constraint;
 
 import verlet.SceneConstraint;
 import verlet.Sphere;
+import verlet.implementation.VerletSphere;
 import verlet.utils.VectorUtil;
 
 public class CircleAreaConstraint implements SceneConstraint {
@@ -35,8 +36,10 @@ public class CircleAreaConstraint implements SceneConstraint {
 
         if(length <= radius) return;
 
-        sphere.setX(dx / length * radius);
-        sphere.setY(dy / length * radius);
+        sphere.setX(dx / length * radius + x);
+        sphere.setY(dy / length * radius + y);
+
+        if(sphere instanceof VerletSphere) ((VerletSphere)sphere).collision(this);
 
     }
 }

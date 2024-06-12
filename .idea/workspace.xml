@@ -9,8 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="added getter Methods for old Sphere position">
+    <list default="true" id="3bb96ca3-2bc6-4c63-9e49-0b9a1089ab46" name="Changes" comment="added setter for old position for sphere">
+      <change afterPath="$PROJECT_DIR$/src/main/ColorSphere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ColorVerletPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WeightedSphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/constraint/CircleAreaConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/constraint/CircleAreaConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/implementation/VerletScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/implementation/VerletSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/implementation/VerletSphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/implementation/VerletSphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verlet/render/VerletPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/verlet/render/VerletPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/CursorPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CursorPickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/KeyMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/Scenes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +102,18 @@
       <workItem from="1717063046586" duration="76000" />
       <workItem from="1717063145813" duration="4000" />
       <workItem from="1717063191194" duration="58000" />
+      <workItem from="1717063325282" duration="1820000" />
+      <workItem from="1717069342393" duration="6046000" />
+      <workItem from="1717079612865" duration="609000" />
+      <workItem from="1717134897901" duration="638000" />
+      <workItem from="1717147859183" duration="670000" />
+      <workItem from="1717325583315" duration="130000" />
+      <workItem from="1717325720744" duration="19000" />
+      <workItem from="1717325914083" duration="761000" />
+      <workItem from="1717327773283" duration="47000" />
+      <workItem from="1717347224503" duration="2170000" />
+      <workItem from="1717783792979" duration="426000" />
+      <workItem from="1717878231235" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -104,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717063100904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added setter for old position for sphere">
+      <option name="closed" value="true" />
+      <created>1717063651065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717063651065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added getter Methods for old Sphere position" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getter Methods for old Sphere position" />
+    <MESSAGE value="added setter for old position for sphere" />
+    <option name="LAST_COMMIT_MESSAGE" value="added setter for old position for sphere" />
   </component>
 </project>

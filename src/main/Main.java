@@ -27,12 +27,12 @@ public class Main {
 
         Scene scene = Verlet.createScene();
 
-        Scenes.get(1,scene,km);
+        Scenes.get(2,scene,km);
         Solver solver = Verlet.createSolver(scene);
         solver.setSubSteps(8);
         solver.setGrid(new VerletGrid(500,500,40));
 
-        VerletPanel panel = new VerletPanel(scene);
+        VerletPanel panel = new ColorVerletPanel(scene);
         frame.add(panel);
 
         frame.setVisible(true);
@@ -65,10 +65,10 @@ public class Main {
 
         JPL.getScheduler().scheduleRepeatingTask(() -> {
 
-            CursorPickup.update(panel.translateBackX(mouseX), panel.translateBackY(mouseY));
-
             solver.step(0.02f);
             panel.repaint();
+
+            CursorPickup.update(panel.translateBackX(mouseX), panel.translateBackY(mouseY));
 
         });
 
